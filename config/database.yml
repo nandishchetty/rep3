@@ -1,0 +1,36 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tmp2_development
+  host: localhost
+  pool: 5
+  username: postgres
+  password: test123
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tmp2_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: test123
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: tmp2_staging
+  host: localhost
+  pool: 5
+  username: postgres
+  password: test123
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tm2_pre_production
+  host: localhost
+  pool: 5
+  username: postgres
+  password: test123
